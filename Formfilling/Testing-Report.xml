@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test-Suite name="UiPath Project - Test Automation" total="3" passed="2" failures="1" execution-date="06/24/2022 10:46:10" total-time="00:06:57">
+ 
+  <Result>
+    <TestScenario>Employee Details Upload</TestScenario>
+    <TestName>employeedetails</TestName>
+    <Started>06/24/2022 11:11:15</Started>
+    <Ended>06/24/2022 11:11:56</Ended>
+    <Status>FAILED</Status>
+  </Result>
+</Test-Suite>
