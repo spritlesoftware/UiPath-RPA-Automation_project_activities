@@ -1,0 +1,37 @@
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+
+<table>
+  <tr>
+    <td>Name </td>
+    <td>varName </td>
+  </tr>
+    <tr>
+    <td>Age </td>
+    <td>varAge </td>
+  </tr>   
+  <tr>
+    <td>Mobile </td>
+    <td>varMobile </td>
+  </tr> 
+  <tr>
+    <td>State </td>
+    <td>varState </td>
+  </tr> 
+  <tr>
+    <td>District </td>
+    <td>varDistrict </td>
+  </tr>  
+  <tr>
+    <td>City </td>
+    <td>varCity </td>
+
+  
+ </table>

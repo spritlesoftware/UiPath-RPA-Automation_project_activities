@@ -1,0 +1,22 @@
+1. How to Insert Tabular format data inside the mail Body?
+
+Sometimes we might need to send the mail by bot having the tabular structure or variable data in a table format.
+
+This small html template helps in inserting tabular structure inside the mail body.
+
+Implementing using Uiapth:
+
+In the Html Template, Add the required number of <tr> tags for the required number of rows inside the table.
+
+Step1: Read the Html Content into a String Variable UserData.
+
+Step2: Use the Replace method to replace the "varABC" values with the respective variables to pass the data dynmaically.
+
+Step3: Pass the UserData Variable inside the mail body in any Send Outlook Mail Message and check the property IsBodyHtml.
+
+
+
+
+Method for Replacing: 
+
+UserData.Replace("varCity",City).Replace("varDistrict",District).Replace("varState",State).Replace("varMobile",Mobile).Replace("varAge",Age).Replace("varName",Name)
